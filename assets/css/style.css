@@ -1,0 +1,78 @@
+
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-style: none;
+}
+
+#float-left {
+    float: left;
+}
+
+.main-body {
+    border-style: dashed;
+}
+.title-card {
+    font-style: oblique;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+ 
+#instruction {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.start-button {
+    display: inline-block;
+    padding: 1rem;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: solid;
+    line-height: 22px;
+    margin: 16px 16px 16px 20px;
+    padding: 14px 34px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    border-radius: 25px;
+    font-size: 25px;
+}
+
+.submit-button {
+    text-align: center;
+    font-size: 15px;
+}
+
+.submit-button::after {
+    width: 100%;
+}
+
+.submit-button::before {
+    width: 100%;
+}
+
+@media (max-width: 690px) {
+    .submit-button {
+        margin: 16px 16px 0px 0px;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width:500px) {
+    .submit-button {
+        font-size: 0.8rem;
+    }
+}
+
