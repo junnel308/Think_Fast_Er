@@ -14,12 +14,20 @@ header nav ul li a {
     font-style: none;
 }
 
+#timer-down {
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    border: none;
+}
+
 #float-left {
     float: left;
 }
 
 .main-body {
     border-style: dashed;
+    width: 100%;
 }
 .title-card {
     font-style: oblique;
@@ -64,14 +72,14 @@ header nav ul li a {
 }
 
 @media (max-width: 690px) {
-    .submit-button {
+    .start-button {
         margin: 16px 16px 0px 0px;
         padding: 10px 15px;
     }
 }
 
 @media (max-width:500px) {
-    .submit-button {
+    .start-button {
         font-size: 0.8rem;
     }
 }
