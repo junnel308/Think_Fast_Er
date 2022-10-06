@@ -26,7 +26,7 @@ header nav ul li a {
 }
 
 .main-body {
-    border-style: dashed;
+   
     width: 100%;
 }
 .title-card {
@@ -56,6 +56,7 @@ header nav ul li a {
     background-color: beige;
     border-radius: 25px;
     font-size: 25px;
+    visibility: visible;
 }
 
 .submit-button {
@@ -83,4 +84,61 @@ header nav ul li a {
         font-size: 0.8rem;
     }
 }
+
+#first-question { 
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100px;
+    width:100%;
+    margin-top: 325px;
+    visibility: hidden;
+}
+
+#second-question { 
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100px;
+    width:100%;
+    margin-top: 300px;
+    visibility: hidden;
+}
+
+#third-question { 
+    display:none;
+}
+.question_one_container {
+    text-align: center;
+    font-size: 15px;
+}
+
+.question_one_container::before {
+    width: 100%;
+}
+
+.question_one_container::after {
+    width: 100%;
+}
+
+
+#question-1 {
+    text-align: center;
+    font-size: 25px;
+}
+.answers {
+    padding: 1rem;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: solid;
+    line-height: 22px;
+    margin: 16px 16px 16px 20px;
+    background-color: rgb(106, 106, 173);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+  
+}
+
 
