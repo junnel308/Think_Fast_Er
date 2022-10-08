@@ -106,8 +106,35 @@ header nav ul li a {
 }
 
 #third-question { 
-    display:none;
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100px;
+    width:100%;
+    margin-top: 300px;
+    visibility: hidden;
 }
+
+#fourth-question { 
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100px;
+    width:100%;
+    margin-top: 300px;
+    visibility: hidden;
+}
+
+#fifth-question {
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100px;
+    width:100%;
+    margin-top: 300px;
+    visibility: hidden;
+}
+
 .question_one_container {
     text-align: center;
     font-size: 15px;
@@ -128,17 +155,22 @@ header nav ul li a {
 }
 .answers {
     padding: 1rem;
-    padding-left: 25px;
+    padding-left: 15px;
     padding-right: 25px;
     text-decoration: solid;
-    line-height: 22px;
+    line-height: 50px;
     margin: 16px 16px 16px 20px;
     background-color: rgb(106, 106, 173);
-    text-align: center;
+    text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     color: white;
-  
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.answers:hover {
+    background-color: rgb(83, 62, 83);
 }
 
 
