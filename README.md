@@ -15,9 +15,9 @@ https://junnel308.github.io/Think_Fast_Er/
 
 ## Screenshots
 
-<img src="./assets/images/Screenshot1" />
+<img src="./assets/images/Screenshot1.png" />
 
-<img src="./assets/images/Screenshot2" />
+<img src="./assets/images/Screenshot2.png" />
 
 ## Credits
 
