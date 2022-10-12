@@ -5,12 +5,12 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>GRE Practice Quiz</title>
+        <title>Think Faster!</title>
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
         <div id="wrapper">
-        <header>
+        <header id="header-content">
             <nav>
                 <ul>
                     <li>
@@ -20,72 +20,84 @@
                 </ul>
             </nav>
         </header>
-           
-            <main class = "main-body">
-                <h1 class = "title-card">GRE Practice Quiz!</h1>
-                <section class = "gre-instruction">
-                    
-                    <h2 id="instruction">You will be given 90 seconds to answer 5 question <br>
-                            Press the "Start" button to begin the quiz <br>
-                        (Every wrong answer reduces the time to 5 seconds. Please answer carefully!)
-                    </h2>
-            
-                    <section class="submit-button">
-                        <button id="start" class="start-button">Start Quiz</button>
-                    </section>
 
+        <h1 class = "title-card">Think Faster!</h1>
+        <main class = "main-body">
+            <section class = "gre-instruction">
+                
+                <h2 id="instruction">You will be given 90 seconds to answer 5 question <br>
+                         Click "Think again!" to redo the quiz. Submit your name to log your score<br>
+                    (Every wrong answer reduces the time to 10 seconds. Please answer carefully!)
+                </h2>
+        
+                <section class="submit-button">
+                    <button id="start" class="start-button">Start Quiz</button>
                 </section>
 
-                <form id="first-question">
-                <h3 id="question-1">Question 1: How many month have 28 days?</h3>
-                    <p class="answers" id="chosen1-answer1">February</p>
-                    <p class="answers" id="chosen1-correct4">All of them</p>
-                    <p class="answers" id="chosen1-answer2">Depends if there's a leap year</p>
-                    <p class="answers" id="chosen1-answer3">None of the Above!</p>
-                </form>
+            </section>
+        </main>
 
-                <form id="second-question">
-                <h3 id="question-1">Question 2: Your the 4th place right now in a race.<br> What place will you be in when you pass the person in a 3rd place?</h3>
-                    <p class="answers" id="chosen2-answer1">1st place</p>
-                    <p class="answers" id="chosen2-answer2">2nd Place</p>
-                    <P class="answers" id="chosen2-correct4">3rd place</p>
-                    <p class="answers" id="chosen2-answer3">None of the above!</p>
-                </form>
+            <form id="first-question">
+            <h3 id="question-1">Question 1: How many month have 28 days?</h3>
+                <p class="answers" id="chosen1-answer1">February</p>
+                <p class="answers" id="chosen1-correct4">All of them</p>
+                <p class="answers" id="chosen1-answer2">Depends if there's a leap year</p>
+                <p class="answers" id="chosen1-answer3">None of the Above!</p>
+            </form>
 
-                <form id="third-question">
-                <h3 id="question-1">Question 3: There are 45 mangoes in your basket.<br> You take 3 out of the basket. How many mangoes are left?</h3>
-                    <p class="answers" id="chosen3-answer1">3</p>
-                    <p class="answers" id="chosen3-answer2">42</p>
-                    <P class="answers" id="chosen3-correct4">45</p>
-                    <p class="answers" id="chosen3-answer3">None of the Above!</p>
-                </form>
+            <form id="second-question">
+            <h3 id="question-1">Question 2: Your the 4th place right now in a race.<br> What place will you be in when you pass the person in a 3rd place?</h3>
+                <p class="answers" id="chosen2-answer1">1st place</p>
+                <p class="answers" id="chosen2-answer2">2nd Place</p>
+                <P class="answers" id="chosen2-correct4">3rd place</p>
+                <p class="answers" id="chosen2-answer3">None of the above!</p>
+            </form>
 
-                <form id="fourth-question">
-                <h3 id="question-1">Question 4: A farmer has 17 goats. All of them but 8 die. <br>How many goats are alive?</h3>
-                    <p class="answers" id="chosen-answer1">8</p>
-                    <p class="answers" id="chosen-answer">9</p>
-                    <p class="answers" id="chosen-answer">17</p>
-                    <p class="answers" id="chosen-answer">None of the Above!</p>
-                </form>
-                
-                <form id="fifth-question">
-                <h3 id="question-1">Question 5: Jimmy's father has 3 sons - Paul I and Paul II.<br>Can you guess the name of the third son?</h3>
-                    <p class="answers" id="chosen-answer">Paul III</p>
-                    <p class="answers" id="chosen-answer">Paul</p>
-                    <p class="answers" id="chosen-answer">Paulo IV</p>
-                    <p class="answers" id="chosen-answer1">None of the Above!</p>
-                </form>
+            <form id="third-question">
+            <h3 id="question-1">Question 3: There are 45 mangoes in your basket.<br> You take 3 out of the basket. How many mangoes are left?</h3>
+                <p class="answers" id="chosen3-answer1">3</p>
+                <p class="answers" id="chosen3-answer2">42</p>
+                <P class="answers" id="chosen3-correct4">45</p>
+                <p class="answers" id="chosen3-answer3">None of the Above!</p>
+            </form>
 
-                <div class="answer-outcome">
-                    
+            <form id="fourth-question">
+            <h3 id="question-1">Question 4: A farmer has 17 goats. All of them but 8 die. <br>How many goats are alive?</h3>
+                <p class="answers" id="chosen4-correct4">8</p>
+                <p class="answers" id="chosen4-answer1">9</p>
+                <p class="answers" id="chosen4-answer2">17</p>
+                <p class="answers" id="chosen4-answer3">None of the Above!</p>
+            </form>
+            
+            <form id="fifth-question">
+            <h3 id="question-1">Question 5: Jimmy's father has 3 sons - Paul I and Paul II.<br>Can you guess the name of the third son?</h3>
+                <p class="answers" id="chosen5-answer1">Paul III</p>
+                <p class="answers" id="chosen5-answer2">Paul</p>
+                <p class="answers" id="chosen5-answer3">Paulo IV</p>
+                <p class="answers" id="chosen5-correct4">None of the Above!</p>
+            </form>
+
+            <form id="high-scores">
+                <h3 id="question-1">High Scores</h3>
+                <div id="scores">
+                    <label for="user-name">Name: </label>
+                    <input type="text" id="user-name" placeholder="Enter Name Here!" maxlength="15">
+                    <input type="button" id="click-me" value="Submit"/>
+                    <p id="score-display"></p>
+                    <p id="score-display1"></p>
+                    <p id="button-display">
+                        <button id="play-again">Think Again!</button>
+                        <button id="clear-scores">Clear Scores</button>
+                    </p>
                 </div>
+            </form>
+        </main>
+        <footer>
+            <h3></h3>
+        </footer>
 
-            </main>
-            <footer>
-                <h3></h3>
-            </footer>
-
-        </div>
-        <script type="text/javascript" src="./assets/javascript/script.js"></script>
-    </body>
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="./assets/javascript/script.js"></script>
+</body>
 </html>

@@ -1,17 +1,27 @@
 
+
 * {
     box-sizing: border-box;
 }
 
 #wrapper {
-    height: 100%;
+    height: 50%;
     padding: 0;
     margin: 0;
 }
+#header-content {
+    padding: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-header nav ul li a {
-    text-decoration: none;
+ul li {
+    list-style-type: none;
+}
+
+a {
     font-style: none;
+    font-size: 25px;
+    text-decoration: none;
 }
 
 #timer-down {
@@ -19,6 +29,9 @@ header nav ul li a {
     font-family: 'Times New Roman', Times, serif;
     color: black;
     border: none;
+    font-size: 25px;
+    padding-right: 25px;
+    visibility: visible;
 }
 
 #float-left {
@@ -26,9 +39,10 @@ header nav ul li a {
 }
 
 .main-body {
-   
     width: 100%;
+    visibility: visible;
 }
+
 .title-card {
     font-style: oblique;
     text-align: center;
@@ -85,13 +99,17 @@ header nav ul li a {
     }
 }
 
+h3 {
+    color:blueviolet
+}
+
 #first-question { 
     position: absolute;
     top:0;
     left:0;
     height: 100px;
     width:100%;
-    margin-top: 325px;
+    margin-top: 200px;
     visibility: hidden;
 }
 
@@ -101,7 +119,7 @@ header nav ul li a {
     left:0;
     height: 100px;
     width:100%;
-    margin-top: 300px;
+    margin-top: 200px;
     visibility: hidden;
 }
 
@@ -111,7 +129,7 @@ header nav ul li a {
     left:0;
     height: 100px;
     width:100%;
-    margin-top: 300px;
+    margin-top: 200px;
     visibility: hidden;
 }
 
@@ -121,7 +139,7 @@ header nav ul li a {
     left:0;
     height: 100px;
     width:100%;
-    margin-top: 300px;
+    margin-top: 200px;
     visibility: hidden;
 }
 
@@ -131,7 +149,7 @@ header nav ul li a {
     left:0;
     height: 100px;
     width:100%;
-    margin-top: 300px;
+    margin-top: 200px;
     visibility: hidden;
 }
 
@@ -140,11 +158,11 @@ header nav ul li a {
     font-size: 15px;
 }
 
-.question_one_container::before {
+.question-1::before {
     width: 100%;
 }
 
-.question_one_container::after {
+.question-1::after {
     width: 100%;
 }
 
@@ -153,15 +171,22 @@ header nav ul li a {
     text-align: center;
     font-size: 25px;
 }
+
+p {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 .answers {
+    width: 50%;
     padding: 1rem;
     padding-left: 15px;
     padding-right: 25px;
+    margin-left: auto;
+    margin-right: auto;
     text-decoration: solid;
     line-height: 50px;
-    margin: 16px 16px 16px 20px;
     background-color: rgb(106, 106, 173);
-    text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     color: white;
@@ -173,4 +198,38 @@ header nav ul li a {
     background-color: rgb(83, 62, 83);
 }
 
+#high-scores {
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100px;
+    width:100%;
+    margin-top: 200px;
+    visibility: hidden;
+}
+#user-name {
+    width: 25%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+#scores { 
+    visibility: hidden;
+}
+#score-display {
+    font-size: 25px;
+}
 
+#score-display1 {
+    font-size: 25px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    font-size: 25px;
+    border-radius: 2%;
+}
